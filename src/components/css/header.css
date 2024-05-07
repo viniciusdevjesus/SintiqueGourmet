@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+
+.nav-bar{
+    background-color: blueviolet;
+    box-shadow: 0px 3px 10px 0;
+    width: 85%;
+    height: 10rem;
+    margin: 1.5em auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.login-button button{
+    border: none;
+    background-color: #0187a7;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.login-button button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width: 730px){
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item{
+        display: none;
+    }
+    .login-button{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon img{
+        width: 4rem;
+        
+    }
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 10rem;
+}
+.nav-list{
+    display: flex;
+    width: 80%;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-list ul{
+    padding: 1rem;
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-list li{
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: aqua;
+    margin-right: 5rem;
+}
+.nav-list ul li:hover{
+    background-color: red;
+}
+.nav-item{
+    margin: 0 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+nav p{
+    background-color: blue;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 0;
+}
+nav p:hover{
+    background-color: red;
+}
+.header-itens p:hover{
+    background-color: red;
+}
+nav{
+    background-color: aqua;
+    width: 85%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+nav p{
+    float: left;
+}

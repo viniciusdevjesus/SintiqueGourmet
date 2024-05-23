@@ -8,6 +8,7 @@ const Shopping_Cart = () => {
     let iconCart = document.querySelector('.icon-cart');
     let closeCart = document.querySelector('.close');
     let showCart = document.querySelector('showcart');
+    const [cart, setCart] = useState([]);
     let listProductHTML = document.querySelector('.list-product');
     const [isActive, setIsActive] = useState(false);
     const [product, setProducts] = useState([])
@@ -49,6 +50,16 @@ const Shopping_Cart = () => {
     }
     function closeCart_click() {
         setIsActive(!isActive);
+    }
+
+    const addToCart = () =>{
+        setCart((prevCart) =>{
+            const productExists = prevCart.find(item => item.id === product.id);
+            if (productExists) {
+                return prevCart.mmap(item => item.id === product.id ? {...item, quantity: item.quantity + 1}: item);
+            }
+            return [...prevCart, {...product, quantity: 1}];
+        })
     }
     return (
         <>

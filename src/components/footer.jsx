@@ -12,15 +12,15 @@ const Footer = () => {
 
                     <div id="footer-social-media">
                         <Link to='/' className="footer-link" id="instagram">
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                         </Link>
 
                         <Link to='/' className="footer-link" id="facebook">
-                            <i class="fa-brands fa-facebook"></i>
+                            <i className="fa-brands fa-facebook"></i>
                         </Link>
 
                         <Link to='/' className="footer-link" id="whatsapp">
-                            <i class="fa-brands fa-whatsapp"></i>
+                            <i className="fa-brands fa-whatsapp"></i>
                         </Link>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div id="footer-copyright">
-                    &#169
+                    ®
                     2023 Todos os Direitos Reservados
                 </div>
             </div>

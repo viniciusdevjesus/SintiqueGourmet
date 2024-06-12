@@ -1,5 +1,4 @@
-{
-    "products": [
+[
       {
         "id": 1,
         "name": "Notebook",
@@ -30,5 +29,4 @@
         "price": 200.00,
         "image": "https://example.com/images/fone_de_ouvido.jpg"
       }
-    ]
-  }
+]

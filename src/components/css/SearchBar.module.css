@@ -1,12 +1,11 @@
 .search-bar{
-    width: 30rem;
-    display: flex;
+    width: 30em;
+
 }
 .group {
     display: flex;
     line-height: 28px;
     align-items: center;
-    position: relative;
 }
 
 .input {

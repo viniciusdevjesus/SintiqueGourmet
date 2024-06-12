@@ -1,0 +1,30 @@
+[
+  {
+    "id": 9,
+    "name": "Smartphone",
+    "price": 2500,
+    "image": "https://example.com/images/smartphone.jpg",
+    "quantity": 2
+  },
+  {
+    "id": 1,
+    "name": "Notebook",
+    "price": 3500,
+    "image": "https://example.com/images/notebook.jpg",
+    "quantity": 2
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 2500,
+    "image": "https://example.com/images/smartphone.jpg",
+    "quantity": 2
+  },
+  {
+    "id": 3,
+    "name": "Tablet",
+    "price": 1500,
+    "image": "https://example.com/images/tablet.jpg",
+    "quantity": 1
+  }
+]

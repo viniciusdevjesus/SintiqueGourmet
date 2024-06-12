@@ -16,31 +16,30 @@
 }
 
 footer{
-    /* position: fixed; */
-    bottom: 0;
+    position: relative;
     width: 100%;
     color: var(--color-neutral-40);
 }
 .footer-link{
     text-decoration: none;
 }
-#footer-content{
+.footer-content{
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
 }
 
-#footer-contacts p{
+.footer-contacts p{
     margin-bottom: 0.7rem;
 
 }
-#footer-social-media{
+.footer-social-media{
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
 }
-#footer-social-media .footer-link{
+.footer-social-media .footer-link{
     display: flex;
     align-items: center;
     justify-content: center;
